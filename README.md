@@ -5,4 +5,7 @@ For Node (Server) we have used stripe package and from React (Client) we have us
 
 ## Project Overview
 
-https://www.loom.com/share/5c108c4a7d8647f69b4e9ba21423292d
+<iframe width="420" height="315"
+src="https://www.loom.com/share/5c108c4a7d8647f69b4e9ba21423292d">
+</iframe>
+
