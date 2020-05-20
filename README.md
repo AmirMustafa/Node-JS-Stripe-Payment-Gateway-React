@@ -10,6 +10,20 @@ https://www.loom.com/share/5c108c4a7d8647f69b4e9ba21423292d
 ## Installation
 1. Clone the repository 
 2. npm install in both stripefrontend and stripebackend seperately
+3. You need to create .env file in both stripebackend and stripefrontend
+
+stripefrontend/.env  (React JS)
+```
+REACT_APP_STRIPE_PUBLISHABLE_KEY=<your_stripe_publishable_key>
+
+```
+
+stripebackend/.env  (React JS)
+```
+NODE_APP_STRIPE_SECRETKEY=<your_stripe_secret_key>
+```
+
+i.e.
 3. Server starts in https://localhost:3000 port
 
 ## Screenshots
