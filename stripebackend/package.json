@@ -1,0 +1,23 @@
+{
+  "name": "stripebackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix ../stripefrontend",
+    "dev": "concurrently \" npm run server \"  \" npm run client \""
+  },
+  "keywords": [],
+  "author": "Amir Mustafa",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "stripe": "^8.52.0",
+    "uuid": "^8.0.0"
+  }
+}
