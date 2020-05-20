@@ -11,6 +11,7 @@ https://www.loom.com/share/5c108c4a7d8647f69b4e9ba21423292d
 1. Clone the repository 
 2. npm install in both stripefrontend and stripebackend seperately
 3. You need to create .env file in both stripebackend and stripefrontend
+4. Go to stripebackend in terminal/commandline ``` npm run dev ```
 
 stripefrontend/.env  (React JS)
 ```
